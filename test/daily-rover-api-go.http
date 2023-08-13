@@ -1,0 +1,14 @@
+### Yesterday's Images - Daliy Rover API Go 
+GET http://localhost:8181/v1/photos/
+
+### Mars Rover Images for earth date - Daliy Rover API Go 
+GET http://localhost:8181/v1/photos/2021-01-01
+
+### Mars Rover Images for invalid earth date - Daliy Rover API Go 
+GET http://localhost:8181/v1/photos/2021-01-00
+
+### Mars Rover Images for future earth date - Daliy Rover API Go 
+GET http://localhost:8181/v1/photos/2024-01-01
+
+### Status Endpoint - Daliy Rover API Go 
+GET http://localhost:8181/status
